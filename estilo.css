@@ -1,0 +1,367 @@
+body{
+	background-color: #f9f9f9;
+	margin: 0;
+	padding-bottom: 0;
+}
+
+.containerTop{
+	background-color: #1c8aff;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+}
+
+.boxTopo{
+	width: 100%;
+	max-width: 1200px;
+	height: 56px;
+	margin: auto;
+}
+
+.logo{
+	float: left;
+	line-height: 56px;
+	margin-left: 35px;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 2px #111111;
+}
+
+.menuTopo{
+	float: right;
+	display: block;
+	transition: all 1s linear;
+}
+
+.menuTopo ul, .menuTopo li{
+	margin: auto;
+	padding: auto;
+	list-style: none;
+}
+
+.menuTopo li{
+	float: left;
+	line-height: 56px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: arial;
+	font-size: 17px;
+	color: #9cccff;
+	cursor: pointer;
+}
+
+.menuTopo li:hover{
+	color: #EEEEEE;
+}
+
+.btnMenuTop{
+	float: right;
+    margin-top: 7px;
+    margin-right: 10px;
+    display: none;
+}
+
+.btnMenuTop img{
+	width: 40px;
+	height: 40px;
+	transition: all 1s linear;
+}
+
+.btnMenuTop img:hover{
+	width: 46px;
+}
+
+.containerBanner{
+	width: 100%;
+	max-width: 1920px;
+	margin: auto;
+	margin-top: 56px;
+}
+
+.containerBanner img{
+ 	width: 100%;
+}
+
+.containerConteudo{
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.box1{
+	width: 20%;
+	float: left;
+}
+
+.box2{
+	width: 80%;
+	float: left;
+}
+
+.box3{
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+
+.menuLeft{
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #888888;
+}
+
+.menuLeft ul, .menuLeft li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menuLeft li{
+	padding: 10px 0px 10px 25px;
+	cursor: pointer;
+	font-family: arial;
+	font-size: 15px;
+	color: 
+}
+
+.menuLeft li:hover{
+	background-color: #DDDDDD;
+}
+
+.txtMenu{
+	background-color: #1c8aff;
+	height: 53px;
+	border-radius: 5px 5px 0px 0px;
+	font-family: arial;
+	font-size: 18px;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 2px #111111;
+	text-align: center;
+	line-height: 53px;
+}
+
+.boxProdutos{
+	width: 25%;
+	float: left;
+}
+
+.produto{
+	background-color: #FFFFFF;
+	height: 450px;
+	margin: 20px 35px 20px 0px;
+	word-wrap: break-word;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #888888;
+}
+
+.containerImg{
+	width: 190px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.txtTitulo{
+	height: 65px;
+	text-align: center;
+	font-family: arial;
+	font-size: 50px;
+	font-weight: 700;
+	text-shadow: 2px 2px 2px #1c8aff;
+}
+
+.conteudoHistoria{
+	background-color: #FFFFFF;
+	margin: 15px 15px 15px 25px;
+	padding: 15px;
+	font-family: arial;
+	color: #000000;
+	text-align: justify;
+	box-shadow: 2px 2px 2px #1c8aff;
+	border-top: 1px solid #1c8aff;
+	border-left: 1px solid #1c8aff;
+	border-radius: 4px;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px){
+
+	.boxProdutos{
+		width: 30%;
+	}
+
+	.box1{
+		width: 30%;
+	}
+
+	.box2{
+		width: 70%;
+	}
+
+	.produto{
+		margin: 20px 15px 20px 15px;
+	}
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 800px){
+	
+	.menuTopo{
+		float: left;
+		width: 100%;
+		display: none;
+	}
+
+	.menuTopo ul, .menuTopo li{
+		width: 100%;
+		padding-left: 0px;
+	    padding-right: 0px;
+	}
+
+	.menuTopo li{
+		padding-left: 35px;
+	    padding-right: 35px;
+	}
+
+	.menuTopo li:hover{
+		background-color: #DDDDDD;
+		color: #1c8aff;
+	}
+
+	.btnMenuTop{
+		display: block;
+	}
+
+	.boxProdutos{
+		width: 50%;
+	}
+
+	.box1{
+		width: 30%;
+	}
+
+	.box2{
+		width: 70%;
+	}
+
+	.produto{
+		margin: 20px 15px 20px 15px;
+	}
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 700px){
+	
+	.containerConteudo{
+		margin-top: 10px;
+	}
+
+	.menuTopo{
+		float: left;
+		width: 100%;
+		display: none;
+	}
+
+	.menuTopo ul, .menuTopo li{
+		width: 100%;
+		padding-left: 0px;
+	    padding-right: 0px;
+	}
+
+	.menuTopo li{
+		padding-left: 35px;
+	    padding-right: 35px;
+	}
+
+	.menuTopo li:hover{
+		background-color: #DDDDDD;
+		color: #1c8aff;
+	}
+
+	.btnMenuTop{
+		display: block;
+	}
+
+	.box1{
+		display: none;
+	}
+
+	.box2{
+		width: 100%;
+	}
+
+	.boxProdutos{
+		width: 50%;
+	}
+
+	.produto{
+		margin: 20px 15px 20px 15px;
+	}
+
+	.txtTitulo{
+		height: 45px;
+		font-size: 40px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+
+	.containerConteudo{
+		margin-top: 10px;
+	}
+
+	.menuTopo{
+		float: left;
+		width: 100%;
+		display: none;
+	}
+
+	.menuTopo ul, .menuTopo li{
+		width: 100%;
+		padding-left: 0px;
+	    padding-right: 0px;
+	}
+
+	.menuTopo li{
+		padding-left: 35px;
+	    padding-right: 35px;
+	}
+
+	.menuTopo li:hover{
+		background-color: #DDDDDD;
+		color: #1c8aff;
+	}
+
+	.btnMenuTop{
+		display: block;
+	}
+
+	.box1{
+		display: none;
+	}
+
+	.box2{
+		width: 100%;
+	}
+
+	.txtTitulo{
+		height: 45px;
+		font-size: 40px;
+	}
+
+	.boxProdutos{
+		width: 100%;
+	}
+
+	.produto{
+		margin: 20px 15px 20px 15px;
+	}
+
+}
+
+.abilitar{
+	display: block;
+}
